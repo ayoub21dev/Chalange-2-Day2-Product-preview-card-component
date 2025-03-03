@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.image{
+    width: 15rem;
+    border-radius: 10px;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+.all{
+    width: 30rem;
+    display: flex;
+}
+.content{
+    background-color: white;
+    width: 15rem;
+    border-radius: 10px;
+
+}
+.perfume{
+    font-family: "Montserrat", serif;
+    letter-spacing: 0.2rem;
+    font-size: 0.7rem;
+    color:hsl(228, 12%, 48%) ;
+    margin: 25px 0 25px 20px;
+
+}
+.h1-gabrielle{
+    line-height: 1.8rem;
+    margin: 0 0 20px 20px;
+}
+.parg{
+color: hsl(228, 12%, 48%);
+margin: 0 0 20px 20px ;
+}
+.price1{
+    color: hsl(158, 36%, 37%);
+    font-size: 1.7rem;
+    font-family: "Fraunces", serif;
+    font-weight: 500;
+    margin: 0 0 20px 20px;
+}
+.price2{
+    color: hsl(228, 12%, 48%);
+}
+.BTN{
+    padding: 10px 60px;
+    border-radius: 8px;
+    color: white;
+    background-color:hsl(158, 36%, 37%); 
+    border: none;
+    margin: 10px  0  0 20px;
+
+}
+
+.btnconten{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}

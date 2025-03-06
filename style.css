@@ -69,3 +69,15 @@ margin: 0 0 20px 20px ;
     align-items: center;
     gap: 10px;
 }
+@media  (max-width: 720px)  {
+    .all{
+        display: block;
+    }
+
+    .image{
+        width: 100%;
+    }
+    .content{
+        width: 100vw;
+    }
+}

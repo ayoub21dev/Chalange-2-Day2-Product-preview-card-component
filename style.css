@@ -72,12 +72,18 @@ margin: 0 0 20px 20px ;
 @media  (max-width: 720px)  {
     .all{
         display: block;
+        background-color: white;
+        
     }
 
     .image{
         width: 100%;
+        border-radius:15px 15px 0 0 ;
+ 
     }
     .content{
         width: 100vw;
+        border-radius:0 0 15px 15px;
+
     }
 }
